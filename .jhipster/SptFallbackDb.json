@@ -1,0 +1,31 @@
+{
+  "name": "SptFallbackDb",
+  "fields": [
+    {
+      "fieldName": "version",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dbid",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "spt_fallback_db",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["Dbconnection"],
+  "microserviceName": "Dbconnection",
+  "clientRootFolder": "Dbconnection",
+  "databaseType": "sql",
+  "changelogDate": "20220614114956"
+}

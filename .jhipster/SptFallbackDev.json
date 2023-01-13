@@ -1,0 +1,59 @@
+{
+  "name": "SptFallbackDev",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xserverName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xfallbackDrive",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xfallbackLow",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xdttmLastInsUpd",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "low",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "high",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "xdttmIns",
+      "fieldType": "ZonedDateTime"
+    },
+    {
+      "fieldName": "phyname",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "spt_fallback_dev",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["Dbconnection"],
+  "microserviceName": "Dbconnection",
+  "clientRootFolder": "Dbconnection",
+  "databaseType": "sql",
+  "changelogDate": "20220614114856"
+}
